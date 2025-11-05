@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+body
+{
+background-color:purple;
+}
+.links_container
+{
+    
+    
+     display: flex;
+     justify-content:end;
+     margin-left: 10px;
+     gap: 20px;
+     
+}
+a
+{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+}
+h1
+{
+    color: gold;
+    font-size:50px;
+    width: 60%;
+    margin-top: 250px;
+}
+.card_container
+{
+    display:flex;
+    justify-content: space-between;
+    flex-direction:row;
+}
+.card 
+{
+    width: 200px;
+background-color: black;
+color:aliceblue;
+text-align: center;
+}
+.card2
+{
+    width: 200px;
+background-color: black;
+color:aliceblue;
+text-align: center;
+}
+/*********************************************** 
+*/
+#sec-2 .div1{grid-area:1/1/4/2;background-color: aqua;}
+
+#sec-2 .div2{grid-area:1/2/2/4;background-color: brown;}
+#sec-2 .div3{grid-area:2/2/3/4;background-color: cadetblue;}
+
+
+
+</style>
+
+</head>
+<body>
+    
+<nav>
+<div class="search_container">
+<input type="text" placeholder="Search">
+<label></label>
+
+
+</div>
+<div>
+    <div class="links_container">
+<a href="" style="color: gold;">HOME</a>
+<a href="" style="color: rgb(0, 0, 0);">ABOUT</a>
+<a href="" style="color: rgb(0, 0, 0);">CONTACT</a>
+
+    </div>
+</div>
+<h1>
+    Thoughtful, collaborative and insightful
+</h1>
+<div class="card-container">
+    <div class="card">
+        <h2>Industrial</h2>
+        <p>Exxcepteur sint occaecat</p>
+        <button>MORE</button>
+        <div></div>
+    </div>
+    <div class="card2">
+        <h2>Building</h2>
+        <p>Exxcepteur sint occaecat</p>
+        <button>MORE</button>
+        <div></div>
+    </div>
+</div>
+
+
+
+</nav>
+<section id="sec-2" class="section">
+<div class="div1">div1</div>
+<div class="div2">div2</div>
+<div class="div3">div3</div>
+</section>
+
+
+
+
+
+</body>
+</html>
